@@ -14,7 +14,7 @@ else:
 for a in range(1,10):
     for b in range(1,10):
         if a * b < 10:
-            l = "0" + str(a*b)
+            l = " " + str(a*b)
         else:
             l = str(a*b)
         print(l, end = " ")
